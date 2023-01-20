@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(234, 199, 218);
+}
+
+h1{
+    color: rgb(121, 17, 9);
+      text-shadow: 
+               -1px -1px 0px rgb(248, 244, 244), 
+               -2px 2px 0px rgb(249, 247, 246),      
+                2px -2px 0px rgb(244, 241, 240),    
+                2px 2px 0px rgb(251, 248, 248);
+}
+
+
+
+#img_redonda{
+    height: 150px;
+    width: 150px;
+    border-radius: 150%;
+}
+:root{
+    --cor-fundo :rgb(106, 6, 6);
+    --cor-hover: rgb(5, 74, 5);
+    --cor-primaria: rgb(240, 212, 212);
+}
+.dp-menu ul{
+    list-style-type: nome;
+    padding: 20px;
+    
+}
+.dp-menu{
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li{
+  display:inline-block;
+}
+
+.dp-menu ul li a{
+    color: var(--cor-primaria);
+    text-decoration: nome;
+    display: :inline-block;
+    padding: 30px;
+}
+.dp-menu ul li a:hover{
+    color: var(--cor-hover);
+}
+
+.bolo-p figure{ display:inline-block;
+   
+}
